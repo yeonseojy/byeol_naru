@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1320"><!--다른 매체에서도 너비 오류 없이 볼 수 있게-->
+  <link href="images/parbicon.png" rel="icon" type="images/icon.png" sizes="32x32" ><!--파비콘-->
+  <title>별나루</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="css/swiper.css" rel="stylesheet" type="text/css"><!-- 수정X -->
+	<link href="css/slidebanner.css" rel="stylesheet" type="text/css"><!--디자인에 맞게 수정-->
+</head>
+<body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos 라이브러리 -->
+  <script src="script/aos.js"></script><!-- aos 소스 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $(function(){
+        $('.top').mouseenter(function(){
+            $('.top2').fadeIn(300);
+        });
+        $('.top2').mouseout(function(){
+            $('.top2').fadeOut(300);
+        });
+    });
+  </script>
+
+    <div class="header">
+      <a href="index.html" class="logo"><img src="images/logo.png" alt=""><img src="" alt=""></a>
+      <ul class="log">
+        <li><a href="#"><img src="images/log_3.png" alt=""></a></li>
+        <li><a href="#"><img src="images/log_2.png" alt=""></a></li>
+        <li><a href="#"><img src="images/log_1.png" alt=""></a></li>
+      </ul>
+      <ul class="nav">
+        <li><a href="sub1.html">소개</a></li>
+        <li><a href="sub2.html">아이에게</a></li>
+        <li><a href="sub3.html">굿즈샵</a></li>
+        <li><a href="sub4.html">이벤트</a></li>
+        <li><a href="sub5.html">혜택</a></li>
+      </ul>
+    </div>
+    <div class="banner">
+      <div class="swiper-container slide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/main_1.png" alt="배너1"></div>
+          <div class="swiper-slide"><img src="images/main_2.png" alt="배너1"></div>
+          <div class="swiper-slide"><img src="images/main_3.png" alt="배너1"></div>
+        </div>
+        <!-- 화살표 버튼 -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- 블릿 버튼 -->
+        <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+  <div class="eventbox">
+    <div class="event_bg" data-aos="fade-right" data-aos-duration="3000">
+      <div class="event">
+        <h2>이 벤 트</h2>
+        <img src="images/underline.png" alt="">
+        <ul>
+          <li><a href="#">
+            <img src="images/event_1.png" alt="">
+            <div>
+              <h1>D-10</h1>
+            </div>
+          </a></li>
+          <li><a href="#">
+            <img src="images/event_2.png" alt="">
+            <div>
+              <h1>D-30</h1>
+            </div>
+          </a></li>
+          <li class="marginright"><a href="#">
+            <img src="images/event_3.png" alt="">
+            <div>
+              <h1>D-34</h1>
+            </div>
+          </a></li>
+        </ul>
+      </div>
+      <img src="images/bg_1.png" alt="">
+    </div>
+  </div>
+  
+  <div class="pickbox">
+    <div class="bubble">
+      <div class="star"><img src="images/starspin.png" alt=""></div>
+      <div class="star2"><img src="images/starspin2.png" alt=""></div>
+      <!-- <div class="star2"><img src="images/starspin.png" alt=""></div> -->
+      <img src="images/hot.png" alt="" class="hot1">
+      <img src="images/hot.png" alt="" class="hot2">
+      <img src="images/hot.png" alt="" class="hot3">
+      <img src="images/hot.png" alt="" class="hot4">
+      <img src="images/new.png" alt="" class="new1">
+      <img src="images/new.png" alt="" class="new2">
+      <img src="images/new.png" alt="" class="new3">
+      <img src="images/new.png" alt="" class="new4">
+      <div class="pick">
+        <div class="pick_box"><a href="#">
+          <div class="pick_txt">
+          <p>92가지 원소로<br>어떻게 세상을<br>만들까?</p>
+          <h1>11,700원</h1>
+       </div>
+          <img src="images/pick_1.png" alt="">
+        </a></div>
+        <div class="pick_box"><a href="#">
+          <div class="pick_txt">
+          <p>오늘의<br>별자리를<br>들려드립니다.</p>
+          <h1>11,700원</h1>
+          </div>
+          <img src="images/pick_2.png" alt="">
+        </a></div>
+        <div class="pick_box"><a href="#">
+          <div class="pick_txt">
+          <p>신기한<br>이야기 반점</p>
+          <h1>8,100원</h1>
+          </div>
+          <img src="images/pick_3.png" alt="">
+        </a></div>
+        <div class="pick_box"><a href="#">
+          <div class="pick_txt">
+          <p>예의없는 친구들을<br>대하는 슬기로운<br>말하기 사전</p>
+          <h1>11,700원</h1>
+          </div>
+          <img src="images/pick_4.png" alt="">
+        </a></div>
+        
+        <div class="pick_box">
+          <img src="images/narupick.png" alt="">
+        </div>
+        <!-- 5번자리 문구 -->
+
+        <div class="pick_box"><a href="#">
+          <div class="pick_txt">
+          <p>키득키득<br>사운드북<br>동물 오케스트라</p>
+          <h1>11,040원</h1>
+          </div>
+          <img src="images/pick_6.png" alt="">
+        </a></div>
+        <div class="pick_box"><a href="#">
+          <div class="pick_txt">
+          <p>팥빙수의 전설</p>
+          <h1>11,700원</h1>
+          </div>
+          <img src="images/pick_7.png" alt="">
+        </a></div>
+        <div class="pick_box"><a href="#">
+          <div class="pick_txt">
+          <p>여우비</p>
+          <h1>9,000원</h1>
+          </div>
+          <img src="images/pick_8.png" alt="">
+        </a></div>
+        <div class="pick_box"><a href="#">
+          <div class="pick_txt">
+          <p>농부 달력</p>
+          <h1>12,600원</h1>
+          </div>
+          <img src="images/pick_9.png" alt="">
+        </a></div>
+      </div>
+    </div>
+  </div>  
+
+  <div class="narubox">
+    <div class="naru_bg" data-aos="fade-left">
+      <img src="images/bg_2.png" alt="">
+      <div class="naru">
+        <div></div>
+        <h1>오늘밤 떠나는 그날의 추억</h1>
+        <h2>별나루에서<br>그 시절의 추억을<br>되찾아 보세요</h2>
+        <a href="#">바로가기<img src="images/right.png" alt=""></a>
+        <img src="images/naru.png" alt="">
+        <img src="images/naru_pen.png" alt="" class="pen">
+      </div>
+    </div>
+  </div>
+<!-- 
+  <div class="event2box">
+    <div class="colorbox">
+    <div class="event2">
+      <h2>365 이벤트</h2>
+      <img src="images/underline.png" alt="">
+      <ul>
+        <li><a href="#">
+          <img src="images/event2_1.png" alt="">
+        </a></li>
+        <li><a href="#">
+          <img src="images/event2_1.png" alt="">
+        </a></li>
+        <li><a href="#">
+          <img src="images/event2_1.png" alt="">
+        </a></li>
+      </ul>
+    </div>  
+    </div>
+  </div>
+ -->
+ <a href="#" class="top" id="menuImg"><img src="images/top.png" alt=""></a>
+ <a href="#" class="top2"><img src="images/top_hover.png" alt=""></a>
+  <div class="reviewbox">
+    <div class="review_bg">
+      <img src="images/cloud_left.png" alt="">
+      <img src="images/cloud_right.png" alt="">
+      <div class="review">
+        <img src="images/reivew.png" alt="">
+        <img src="images/underline_long.png" alt="">
+        <div class="review_photo">
+          <ul>
+            <li><a href="#"><img src="images/child_1.png" alt=""></a></li>
+            <li><a href="#"><img src="images/child_2.png" alt=""></a></li>
+            <li><a href="#"><img src="images/child_3.png" alt=""></a></li>
+            <li><a href="#"><img src="images/child_4.png" alt=""></a></li>
+            <li><a href="#"><img src="images/child_5.png" alt=""></a></li>
+            <li><a href="#"><img src="images/child_6.png" alt=""></a></li>
+            <li><a href="#"><img src="images/child_7.png" alt=""></a></li>
+            <li><a href="#"><img src="images/child_8.png" alt=""></a></li>
+            <li><a href="#"><img src="images/child_9.png" alt=""></a></li>
+            <li><a href="#"><img src="images/child_10.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="footer">
+      <div class="footer_inner">
+        <ul>
+          <li><a href="#">브랜드 소개</a></li>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://www.youtube.com/"><img src="images/icon_1.png" alt=""></a></li>
+          <li><a href="https://www.instagram.com/"><img src="images/icon_2.png" alt=""></a></li>
+          <li><a href="https://www.facebook.com/"><img src="images/icon_3.png" alt=""></a></li>
+          <li><a href="https://twitter.com/"><img src="images/icon_4.png" alt=""></a></li>
+        </ul>
+        <ul>
+          <li>대표. 김연서</li>
+          <li>메일. yeonseojy@naver.com</li>
+          <li>주소.부산광역시 해운대구 해운대로 569
+          </li>
+        </ul>
+        <img src="images/logo_white.png" alt="">
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script><!-- 제이쿼리 라이브러리,수정X -->
+    <script src="script/swiper.min.js"></script><!-- 수정X -->
+    <script src="script/slidebanner.js"></script><!--디자인에 맞게 수정-->
+    <script>
+      function onHover()
+{
+    $("#menuImg").attr('src', 'images/top_2.png');
+}
+
+function offHover()
+{
+    $("#menuImg").attr('src', 'images/top.png');
+}
+    </script>
+</body>
+</html> 
+<!-- 한 구역을 box로 잡아서 relative먹이기 사이즈 구분하기 편하게 -->

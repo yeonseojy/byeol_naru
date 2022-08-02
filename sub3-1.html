@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400"><!--다른 매체에서도 너비 오류 없이 볼 수 있게-->
+  <link href="images/parbicon.png" rel="icon" type="image/png" sizes="32x32" ><!--파비콘-->
+  <title>별나루</title>
+  <link rel="stylesheet" href="css/style3.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="script/jquery-1.12.3.js">
+</head>
+<body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos 라이브러리 -->
+  <script src="script/aos.js"></script><!-- aos 소스 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $(function(){
+        $('.top').mouseenter(function(){
+            $('.top2').fadeIn(300);
+        });
+        $('.top2').mouseout(function(){
+            $('.top2').fadeOut(300);
+        });
+        $('.a').click(function(){
+          $('.popup').show();
+        })
+        $('.close').click(function(){
+          $('.popup').hide();
+        })
+        $('.icon1').mouseenter(function(){
+            $('.icon3').fadeIn(600);
+        });
+        $('.icon3').mouseout(function(){
+            $('.icon3').fadeOut(600);
+        });
+        $('.icon2').mouseenter(function(){
+            $('.icon4').fadeIn(600);
+        });
+        $('.icon4').mouseout(function(){
+            $('.icon4').fadeOut(600);
+        });
+    });
+  </script>
+
+  <div class="header">
+    <a href="index.html" class="logo"><img src="images/logo.png" alt=""><img src="" alt=""></a>
+    <ul class="log">
+      <li><a href="#"><img src="images/log_3.png" alt=""></a></li>
+      <li><a href="#"><img src="images/log_2.png" alt=""></a></li>
+      <li><a href="#"><img src="images/log_1.png" alt=""></a></li>
+    </ul>
+    <ul class="nav">
+      <li><a href="sub1.html">소개</a></li>
+      <li><a href="sub2.html">아이에게</a></li>
+      <li><a href="sub3.html">굿즈샵</a></li>
+      <li><a href="sub4.html">이벤트</a></li>
+      <li><a href="sub5.html">혜택</a></li>
+    </ul>
+  </div>
+  <div class="banner">
+    <div class="banner_inner">
+      <img src="images/sub3_banner_icon.png" alt="">
+      <img src="images/sub3_banner_icon2.png" alt="">
+      <h1>굿 즈 샵</h1>
+    </div>
+  </div>
+  <a href="#" class="top"><img src="images/top.png" alt=""></a>
+  <a href="#" class="top2"><img src="images/top_hover.png" alt=""></a>
+  <div class="main">
+    <div class="bubble">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="box1" >
+      <div class="box1_inner">
+        <ul>
+          <li class="box1_img" id="img"><img src="images/sub3_img_1.png" alt=""></li>
+          <li class="box1_txt_1">이야기를 저장하는<br>별나루의 노트</li>
+          <li class="box1_txt_2"><a href="#img" class="a">자세히 보기</a></li>
+        </ul>
+        <ul>
+          <li class="box1_txt_1">꿈을 담는<br>장난감 구름 박스</li>
+          <li class="box1_txt_2"><a href="#">자세히 보기</a></li>
+          <li class="box1_img"><img src="images/sub3_img_2.png" alt=""></li>
+        </ul>
+        <p class="hot">Hot</p>
+        <p class="new">New</p>
+      </div>
+    </div>
+    <div class="box2">
+      <div class="box2_inner">
+        <ul>
+          <li class="box2_txt_1">깔끔하게 꾸미는<br>별나루 스티커</li>
+          <li class="box2_txt_2"><a href="#">자세히 보기</a></li>
+          <li class="box2_img"><img src="images/sub3_img_3.png" alt=""></li>
+        </ul>
+        <ul>
+          <li class="box2_img"><img src="images/sub3_img_4.png" alt=""></li>
+          <li class="box2_txt_1">동화속에서 튀어나온<br>마스킹 테이프</li>
+          <li class="box2_txt_2"><a href="#">자세히 보기</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="box3">
+      <div class="box3_inner">
+        <ul>
+          <li class="box3_img"><img src="images/sub3_img_5.png" alt=""></li>
+          <li class="box3_txt_1">매번 여행을 떠나는<br>어린왕자 머그컵</li>
+          <li class="box3_txt_2"><a href="#">자세히 보기</a></li>
+        </ul>
+        <ul>
+          <li class="box3_txt_1">하늘의 별자리를<br>확인하는 텀블러</li>
+          <li class="box3_txt_2"><a href="#">자세히 보기</a></li>
+          <li class="box3_img"><img src="images/sub3_img_6.png" alt=""></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <div class="popup">
+    <div>
+      <img src="images/notemockup.png" alt="">
+      <div>
+        <h1>별나루 밴딩 수첩</h1>
+        <p>
+          별나루 특유의 보라색 색감과 <br>
+          별, 구름으로 깔끔한 디자인을 연상케하고 <br>
+          하드 커버지와 밴딩을 활용하여 <br>
+          가방에서 구겨짐을 방지하였습니다.
+        </p>
+        <ul>
+          <li class="icon1"><a href="#"><img src="images/sub3_popup_icon1.png" alt=""></a></li>
+          <li class="icon2"><a href="#"><img src="images/sub3_popup_icon2.png" alt=""></a></li>
+        </ul>
+        <ul>
+          <li class="icon3"><a href="#"><img src="images/sub3_popup_icon1-1.png" alt=""></a></li>
+          <li class="icon4"><a href="#"><img src="images/sub3_popup_icon2-2.png" alt=""></a></li>
+        </ul>
+      </div>
+      <a href="#img" class="close"><img src="images/sub3_popup_X.png" alt="" ></a>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_inner">
+      <ul>
+        <li><a href="#">브랜드 소개</a></li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+      </ul>
+      <ul>
+        <li ><a href="https://www.youtube.com/"><img src="images/icon_1.png" alt=""></a></li>
+        <li><a href="https://www.instagram.com/"><img src="images/icon_2.png" alt=""></a></li>
+        <li><a href="https://www.facebook.com/"><img src="images/icon_3.png" alt=""></a></li>
+        <li><a href="https://twitter.com/"><img src="images/icon_4.png" alt=""></a></li>
+      </ul>
+      <ul>
+        <li>대표. 김연서</li>
+        <li>메일. yeonseojy@naver.com</li>
+        <li>주소.부산광역시 해운대구 해운대로 569
+        </li>
+      </ul>
+      <img src="images/logo_white.png" alt="">
+    </div>
+  </div>
+</body>
+</html>
