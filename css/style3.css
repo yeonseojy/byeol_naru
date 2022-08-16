@@ -67,10 +67,10 @@ body{
     margin-top: 0px;
     padding: 40px;
     box-sizing: border-box;
-    position: absolute;
 }
 .footer_inner{
     width: 1320px;
+    position: relative;
     margin: auto;
 }
 .footer_inner ul:nth-child(1) li a{
@@ -81,7 +81,7 @@ body{
 }
 .footer_inner ul:nth-child(2){
     position: absolute;
-    right: 300px;
+    right: 0px;
 }
 .footer_inner ul:nth-child(2) li{
     margin-left: 35px;
@@ -104,7 +104,7 @@ body{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,0%);
 }
 /* footer */
 
