@@ -485,8 +485,7 @@ display: none;}
     height: 200px;
     padding: 40px;
     box-sizing: border-box;
-    position: absolute;
-    top: 4350px;
+    margin:auto;
 }
 .footer_inner{
     width: 1320px;
